@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ACME - The Fake Store
+This project is a Next.js-based demo / classroom project. It showcases a small fictional “ACME” company website offering “Smart solutions, zero hassle” and includes:
+
+- A product listing interface (“Products”)
+- A contact page (“Contact us”)
+- A “fake store” integration (backend or mock API)
+- Basic branding, layout, and styling to illustrate how to build a small real-world Next.js app 
+
+The goal is to provide a base of the coding of Next.js.
+
+## Features/Pages
+Here are the main features and pages visible in the demo:
+
+- Home / Landing – “ACME – Smart solutions, zero hassle” headline, with navigation to Products and Contact 
+- Products – A page that shows product listings (pulled from some “Fakestore” or product API) 
+- Contact – A contact form or contact info page
+- Branding / Styling – Uses a clean, modern layout, likely with CSS modules, Tailwind, or standard CSS (depending on project)
+- Demo integration – The “Fakestore” reference suggests integration with a mock or third-party product API or dataset 
+
+Because it’s a demo project, the scope is modest but enough to illustrate routing, data fetching, page layout, navigation, and basic styling in Next.js.
+
+## Tech Stack
+- Framework: Next.js (React + server/client rendering) 
+- Language: TypeScript (mostly) with some JavaScript
+- Styling / Fonts: Uses next/font to optimize and load a custom font family (Geist) 
+- Build / Tooling: Standard Next.js setup (ESLint, PostCSS, etc.) 
+- Deployment: Hosted on Vercel (the domain is nextjsinclass.vercel.app)
 
 ## Getting Started
+1. Clone the repository
+   ```
+   git clone https://github.com/WorldwideErrors/nextJSinClass.git
+   cd nextJSinClass
+   ```
+2. Install dependencies
+   ```
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+   ```
+3. Run development server
+   ```
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+   ```
+4. Open your browser at http://localhost:3000 to view the project.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License & Authors
+### Authors / Maintainers
+- WorldwideErrors / Jeffrey
